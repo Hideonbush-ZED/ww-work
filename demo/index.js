@@ -1,6 +1,4 @@
-
-document.getElementById("one").onclick = function(){
-  document.getElementById("one").style.backgroundColor = "yellow";
+document.getElementById("d1").onclick = function(){
+  document.getElementById("d1").style.backgroundColor = "yellow";
 }
-
 
