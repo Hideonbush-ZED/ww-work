@@ -1,4 +1,4 @@
-document.getElementById("d1").onclick = function(){
-  document.getElementById("d1").style.backgroundColor = "yellow";
+function blue(){
+         circle=document.getElementById("circle");
+         circle.style.backgroundColor="yellow";
 }
-
