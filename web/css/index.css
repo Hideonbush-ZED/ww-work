@@ -91,7 +91,7 @@ p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6{
     width: 90%;
     margin:16px 0;
 }
-.more{
+.out{
 	border-top:1px solid rgba(0,0,0,.1);
 }
 .out>a{
