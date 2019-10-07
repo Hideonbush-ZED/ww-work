@@ -1,0 +1,407 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+#hdrow{
+	width:100%;
+	height:163px;
+	display:inline-block;
+}
+#he-c1{
+	width:1170px;
+	height:81px;
+	margin:0 auto;
+	text-align: center;
+	/*display:inline-block;*/
+}
+#c11{
+	width:487.5px;
+	height:81px;
+	display:inline-block;
+	
+}
+#c11 img{
+	width:193.77px;
+	height:81px;
+	float:left;
+	padding:0px 15px;
+}
+#he-c1{
+	margin-top:20px;
+	
+}
+#c22{
+	width:682.5px;
+	height:60px;
+	display:inline-block;
+	float:right;
+	margin:0 -15px;
+	
+}
+#zhuan{
+	width:622px;
+	height:21px;
+	display:inline-block;
+	
+}
+#zhuan a{
+	color:#505050;
+	text-decoration: none;
+	float:right;
+	font-size: 14px;
+    font-family: 'Questrial', sans-serif;
+}
+/*#mms{
+	margin-right: 20px;
+}*/
+#mms1{
+	margin-right: 20px;
+}
+#mir{
+	width:437px;
+	height:39px;
+	display:inline-block;
+	float:right;
+	margin-right:20px;
+}
+#mir input{
+	width:401px;
+	height:37px;
+	border:none;
+	border-bottom:1px solid gray;
+}
+#mir button{
+	width:35px;
+	height:35px;
+	border:none;
+	background:none;
+	float:right;
+}
+#nav{
+	width:100%;
+	height:50px;
+	background-color:#f0f0f0;
+	font-size:14px;
+	color:#333333;
+	
+}
+#n1{
+	width:1170px;
+	height:52px;
+	margin:0 auto;
+}
+#n1 ul li{
+	float:left;
+	list-style:none;
+	padding:0px 28px;
+	line-height:50px;
+}
+#n1 ul li:hover{
+	background-color:#fd405e;
+	color:#ffffff;
+}
+#xxd{
+	padding:0px !important;
+	width:109.73px;
+	height:34px;
+	border:2px solid #fd405e;
+	color:#FD405E;
+	border-radius: 84px;
+	margin-top:5px;
+	line-height:52px;
+	background-color:#ffffff;
+	
+}
+#xxd img{
+	margin-left:6px;
+}
+#xxd m{
+	display:block;
+	line-height:40px;
+	float:right;
+	margin-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+#m3{
+	width:555px;
+	
+}
+
+#m4{
+	width: 555px;
+}
+
+
+
+#ig{
+	width:100%;
+}
+body{
+	box-sizing: border-box;
+}
+#we{
+	 margin-top: 80px;
+      height:721px;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+     padding-bottom: 10px;
+   
+   }
+   
+
+.qe{
+	margin-top: 0;
+    line-height: 1;
+    color: #222;
+    text-transform: uppercase;
+}
+#q1{
+	width:30%;
+	float: left;
+    margin-left:200px ;
+} 
+
+#q2{
+	width:30%;
+   float: right;
+   margin-right:200px ;
+}
+
+#qe{
+	font-family: 'PT Sans', sans-serif;
+    margin-top: 0;
+    line-height: 1;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#qr{
+	font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #777;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 5px;
+        box-sizing: border-box;
+}
+#qr div{
+	float:left;
+	margin-right: 25px;
+}
+
+#name{
+	width:262px;
+	height:25px;
+}
+
+
+#email{
+	width:262px;
+	height:25px;
+	margin-right:50px ;
+}
+
+#qy{
+	  font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #777;
+    text-transform: uppercase;
+    display: inline-block;
+   width: 100%;
+    margin-bottom: 5px;
+        box-sizing: border-box;
+
+}
+#subject{
+	width:555px;
+	height:34px;
+}
+
+#qu{
+	 font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #777;
+    text-transform: uppercase;
+    display: inline-block;
+   width: 100%;
+    margin-bottom: 5px;
+        box-sizing: border-box;
+}
+
+#message{
+	width:555px;
+	height:160px;
+	
+}
+
+
+
+
+#captcha{
+	
+}
+
+#qi{
+	 font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #777;
+    text-transform: uppercase;
+    display: inline-block;
+   width: 100%;
+    margin-bottom: 5px;
+        box-sizing: border-box;
+        background: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 20px;
+    width:555px;
+    height:125px;
+}
+
+#send{
+	font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 35px;
+    border-radius: 0;
+    text-transform: uppercase;
+    text-shadow: none;
+    box-shadow: none;
+    outline: none;
+    transition: all 300ms ease-in-out 0s;
+    background: #fd405e;
+    color: #FFF;
+    line-height: 50px;
+}
+#qa{
+display: block;
+    margin: 7px 0 12px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1;
+    color: #222;
+    text-transform: uppercase;
+
+}
+
+#qs{
+font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+margin: 0 0 10px;
+
+}
+
+#qd{
+	color: #777;
+	font-family: 'PT Sans', sans-serif;
+	    font-size: 14px;
+	    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+    box-sizing: border-box;
+    padding-bottom:20px;
+}
+
+#qg{
+display: block;
+    margin: 7px 0 12px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1;
+    color: #222;
+    text-transform: uppercase;
+
+}
+
+#qh{
+	font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+margin: 0 0 10px;
+
+}
+
+#qj{
+		color: #777;
+	font-family: 'PT Sans', sans-serif;
+	    font-size: 14px;
+	    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+
+
+#qk{
+	display: block;
+    margin: 7px 0 12px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1;
+    color: #222;
+    text-transform: uppercase;
+}
+
+#ql{
+		font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+margin: 0 0 10px;
+}
+#qz{
+			color: #777;
+	font-family: 'PT Sans', sans-serif;
+	    font-size: 14px;
+	    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+#qx{
+		display: block;
+    margin: 7px 0 12px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1;
+    color: #222;
+    text-transform: uppercase;
+}
+#qc{
+			font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+margin: 0 0 10px;
+word-wrap:break-word; 
+}
+
+#qb{
+	margin-top: 20px;
+}
+
+#omg{
+	margin-top: 20px;
+}
