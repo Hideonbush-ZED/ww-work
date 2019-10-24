@@ -1,0 +1,117 @@
+ DOM
+
+ 获取元素
+       
+方法 ：  var div = document.getElementById(''); 
+
+
+获取和设置元素中的其他信息
+ 获取元素名
+
+方法： document.getElementsByTagName('');
+
+
+获取元素节点里的内容
+  方法    .innerHTML   
+                   
+ 用name属性值获取元素
+ 特点：可以获取相同名称的name元素,返回一个伪数组对象.
+ 方法：document.getElementsByName('sex');
+  
+
+用标签名获取元素
+
+getElementsByTagName()可以获取该元素名称下所有的元素,返回一个伪数组,或者说是一个节点列表.
+
+	 document.getElementsByTagName('');
+
+在某一个元素中,并不是在全局文档中利用标签获取元素,这样更加精确.	
+ 方法： document.getElementsByTagName('');
+       
+ 用类名获取元素
+
+方法：document.getElementsByClassName('');
+    
+用选择器获取元素
+特点：只能找到元素列表的第一个元素
+方法：document.querySelector('');
+特点 ：可以全部找到.注意,该方法性能没有直接利用标签寻找高.    
+ 方法：document.querySelector('');
+  
+
+
+  获取元素的属性
+   方法：console。log(div.getAttribute(''))
+   
+
+ 
+ 设置元素属性
+参数：第一个参数是属性名,第二个参数是属性值.都需要用引括号起来以逗号分隔.
+        .setAttribute('');
+
+删除元素属性
+参数：需要删除的属性名字		
+            removeAttribute('');
+ 
+
+ 增加元素
+创建元素节点
+方法：   document.reateElement('');
+      
+  
+
+
+
+创建文本节点
+  方法： var p =document.getElementById('p');
+    var text =document.createTextNode('死亡如风 常伴吾身');
+     p.appendChild(text);
+
+
+   css样式赋予
+ 参数：css样式
+  方法  div.style.cssText ='width:100px;height:100px;background-color:blue;';
+
+
+
+参数：两个参数，第一个参数是 需要插入的元素，第二个参数是在谁之前插入，两个参数用逗号分隔
+   方法：  .insertBefore(,);
+        
+        
+
+
+ 删除和替换元素
+  元素的替换
+参数：第一个参数是将要替换的新元素，第二个是被替换的旧元素，中间用逗号分隔
+ 方法：     document.body.replaceChile();
+
+
+删除元素
+参数：将需要删除的元素放入括号中
+   方法： document.body.removeChild();
+
+
+ 查找节点
+节点的属性
+   nodeName，nodeValue，nodeType
+
+获取所有子节点
+使用childNodes属性拿到的是该元素下所有的节点，包含所有节点类型，不单单只是元素
+     console.log(myul.childNodes);
+
+
+
+获取首尾子节点
+  方法： console.log(myul.firstChild);
+          console.log(myul.lastChild);
+    
+
+ 获取父节点
+方法 ：console.log(myidv.parentNode);（注意父节点只有一个）
+
+获取兄弟节点
+
+方法 ：
+        前  console.log(myidv.previousSibling);
+          后：console.log(myidv.nextSibling);
+
